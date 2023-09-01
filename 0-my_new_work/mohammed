@@ -1,0 +1,12 @@
+#!/bin/bash
+pwd
+ls
+cd ~
+ls -l
+ls -al
+mkdir my_first_directory
+echo "please enter commit massege:"
+read msg
+git add .
+git commit -m "$msg"
+git push
